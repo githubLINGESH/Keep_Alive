@@ -47,7 +47,7 @@ def keep_website_alive():
         driver.quit()
 
 # Route to start keeping the website alive
-@app.route('/start_keep_alive', methods=['POST'])
+@app.route('/start_keep_alive', methods=['GET'])
 def start_keep_alive():
     try:
         # Start the background thread to keep the website alive
