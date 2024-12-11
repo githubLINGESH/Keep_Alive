@@ -19,7 +19,7 @@ def get_webdriver():
     return webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 # Static website URL and root div ID
-STATIC_URL = "https://your-react-website.com"
+STATIC_URL = "https://transaction-appv1.netlify.app"
 ROOT_DIV_ID = "root"  # Replace with your actual root div ID
 
 def keep_website_alive():
